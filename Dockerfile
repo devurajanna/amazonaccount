@@ -1,2 +1,2 @@
 FROM tomcat:8
-copy target/*.war /usr/local/tomcat/webapps/
+copy target/account-v1.jar /usr/local/tomcat/webapps/
